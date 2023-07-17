@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+    .header {
+		&__main {
+			&-txt {
+				h1 {
+					font-size: 16rem;
+				}
+				p {
+					font-size: 4rem;
+				}
+			}
+		}
+	}
+	.contact {
+		&__main {
+			&-bubble {
+				
+				&--two {
+					top: -100px;
+					left: 40px;
+				}
+				
+			}
+		}
+	}
+}

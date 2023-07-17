@@ -1,0 +1,144 @@
+@media (min-width: 768px) {
+	.menu {
+		&__ulList {
+			position: absolute;
+			right: 0px;
+			top: 0px;
+			width: 360px;
+		}
+	}
+	.header {
+		&__main {
+			&-img {
+				display: block;
+				width: 50%;
+				img {
+					@include imgSize;
+				}
+			}
+			&-txt {
+				width: 50%;
+				h1 {
+					font-size: 10rem;
+					letter-spacing: -3.2px;
+				}
+				p {
+					font-size: 3rem;
+				}
+			}
+		}
+	}
+	.section-header {
+		padding: 2em 0em;
+		font-size: 7rem;
+	}
+	.about {
+		&__main {
+			&-img {
+				width: 60%;
+			}
+			&-txt {
+				width: 40%;
+				&-list {
+					li {
+						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
+	.about-more {
+		&__txt {
+			font-size: 3rem;
+			&--one {
+				align-self: flex-start;
+				width: 50%;
+			}
+			&--two {
+				align-self: flex-end;
+				width: 60%;
+			}
+		}
+		&__profile {
+			&-list {
+				width: 40%;
+				font-size: 2rem;
+			}
+		}
+	}
+
+	.work {
+		&__card {
+			h3 {
+				font-size: 5rem;
+			}
+			p {
+				width: 40%;
+				font-size: 2rem;
+			}
+		}
+		&__icon {
+			top: 300px;
+			font-size: 10rem;
+		}
+	}
+	.accordeon {
+		width: 60%;
+		&__card {
+			&-title {
+				font-size: 3rem;
+				font-weight: 200;
+				h3 {
+					font-weight: 300;
+				}
+			}
+		}
+	}
+
+	.contact {
+		&__main {
+			width: 100%;
+			flex-wrap: nowrap;
+			height: 100%;
+			&-txt {
+				width: 40%;
+				h3 {
+					font-size: 4rem;
+					font-weight: 300;
+				}
+				p {
+					font-size: 2rem;
+					font-weight: 300;
+				}
+			}
+			&-bubbles {
+				width: 60%;
+				height: 100%;
+			}
+			&-bubble {
+				position: absolute;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 280px;
+				width: 280px;
+				border-radius: 50%;
+				&--one {
+					top: -400px;
+					right: 0;
+				}
+				&--two {
+					top: -100px;
+					left: -50px;
+				}
+				&--three {
+					top: 150px;
+					right: 40px;
+				}
+			}
+		}
+	}
+	.map {
+		margin-top: 10em;
+	}
+}
